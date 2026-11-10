@@ -1,6 +1,6 @@
 """HTTP와 저장 책임을 구분하는 지식 관리 API입니다."""
 from fastapi import FastAPI
-from app.routers import knowledge
+from routers import knowledge
 
 # FastAPI 애플리케이션 생성
 # - title : Swagger 문서 제목

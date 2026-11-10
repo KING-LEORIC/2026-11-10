@@ -1,7 +1,7 @@
 """HTTP 경로·입력·응답. 저장 구현은 repository에 위임합니다."""
 from fastapi import APIRouter, HTTPException, Response
-from app.schemas import Knowledge, KnowledgeWrite
-from app.repositories import json_knowledge as repo
+from schemas import Knowledge, KnowledgeWrite
+from repositories import json_knowledge as repo
 
 # Knowledge API Router 생성
 # - prefix : 모든 경로 앞에 /api/knowledge 부여
