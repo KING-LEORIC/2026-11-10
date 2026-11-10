@@ -1,5 +1,5 @@
 {
-  "next_id": 4,
+  "next_id": 9,
   "entries": [
     {
       "id": 1,
@@ -8,16 +8,28 @@
       "content": "프로젝트별 패키지를 분리한다."
     },
     {
-      "id": 2,
-      "title": "서버 실행",
-      "category": "api",
-      "content": "uvicorn으로 개발 서버를 켠다."
+      "title": "새 안내",
+      "content": "로컬 폴더를 확인합니다.",
+      "category": "guide",
+      "id": 4
     },
     {
-      "id": 3,
-      "title": "입력 오류",
-      "category": "api",
-      "content": "422이면 입력값을 확인한다."
+      "title": "새 지식",
+      "content": "새 내용",
+      "category": "guide",
+      "id": 5
+    },
+    {
+      "title": "파일 보관",
+      "content": "개인 폴더에 보관합니다.",
+      "category": "learning",
+      "id": 6
+    },
+    {
+      "title": "질문 방법",
+      "content": "오류 메시지와 함께 질문합니다.",
+      "category": "help",
+      "id": 7
     }
   ]
 }
